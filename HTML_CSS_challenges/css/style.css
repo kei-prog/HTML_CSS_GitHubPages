@@ -1,0 +1,776 @@
+body {
+  font-family: "-apple-system", "Meiryo", sans-serif;
+  margin: 0 0 0 0;
+  background-color: #edf2f7;
+}
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+header {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background-color: #fff;
+}
+header .Zenn_Official {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: auto;
+}
+header .Zenn_Official_img {
+  width: 100px;
+}
+header .search {
+  margin-right: 25px;
+  margin-top: 5px;
+}
+header .login {
+  margin-right: 15px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: #3ea8ff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.aside01 {
+  display: flex;
+  position: sticky;
+  top: -0.1px;
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 10px;
+  border: 1px solid #e4edf4;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.aside01 .Zenn_Official_img {
+  border-radius: 50%;
+  width: 40px;
+}
+.aside01 .p_ZennOfficial {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 5px 0 0 5px;
+}
+.aside01 .mokuji {
+  margin-left: auto;
+  color: #6e7b85;
+  font-size: 15px;
+  font-weight: 400;
+}
+.aside01 .down_arrow_img {
+  width: 16px;
+}
+.aside01 .div_heart {
+  width: 30px;
+  height: 30px;
+  background-color: #edf2f7;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.aside01 .heart_img {
+  width: 25px;
+  height: 25px;
+}
+.article_title {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.article_title .pen_img {
+  width: 75px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.article_title h1 {
+  margin-top: auto;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #2b2c2d;
+}
+.article_title span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.article_title p {
+  color: #7a8898;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: auto;
+}
+.main_container {
+  display: flex;
+  flex-flow: column;
+}
+main {
+  background-color: #fff;
+  padding: 0 20px 0 20px;
+  max-width: 800px;
+}
+main .kinds_link {
+  display: flex;
+  padding-top: 20px;
+}
+main .p_img {
+  border: 1px solid #e3ecf4;
+  border-radius: 90rem;
+  margin-left: 20px;
+  height: 1.5em;
+  width: 4.5em;
+  display: flex;
+  justify-content: start;
+  padding: 5px 0 5px 0;
+}
+main .Zenn_img {
+  width: 25px;
+  padding-left: 3px;
+}
+main .p_img span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #2e2e2e;
+  padding-top: 5px;
+}
+main .kinds_link .p_Tech_img {
+  margin-left: 5px;
+}
+main .Tech_img {
+  width: 30px;
+}
+main p {
+  line-height: 30px;
+}
+main h2 {
+  margin-top: 80px;
+  font-size: 26px;
+  border-bottom: 1px solid #e4edf4;
+  padding-bottom: 10px;
+}
+
+main h3 {
+  margin-top: 50px;
+  line-height: 34px;
+  font-size: 22px;
+  border-bottom: 1px solid #e4edf4;
+  padding-bottom: 10px;
+}
+main .section01 .section01_img {
+  width: 100%;
+}
+main .section01 p {
+  margin-top: 20px;
+}
+main .section01 .shortcut {
+  margin-top: 25px;
+  border: 1px solid #e0ebf2;
+  border-radius: 1em;
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  box-shadow: 0 1px 0px 0 #e0ebf2;
+}
+
+main .section02 .section02_img {
+  width: 100%;
+}
+main .section02 .p_span {
+  font-weight: 700;
+}
+main h4 {
+  color: #0f83fd;
+}
+main .h4_bottom {
+  border-bottom: 2px solid #e4edf4;
+  padding-bottom: 40px;
+}
+main .section02 .p_markdown {
+  margin-top: 30px;
+}
+main .section02 .GitHub_edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e0ebf2;
+  border-radius: 1em;
+  font-size: 14px;
+  box-shadow: 0 1px 0px 0 #e0ebf2;
+  width: 190px;
+  height: 35px;
+  gap: 10px;
+}
+main .section02 .GitHub_edit p {
+  margin-top: 15px;
+}
+
+main .section02 .main_footer .div_heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: #edf2f7;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+main .section02 .main_footer .heart_img {
+  width: 25px;
+  height: 25px;
+}
+main .section02 .main_footer .heart_count .count {
+  font-size: 12px;
+  color: #93a5b1;
+}
+
+main .section02 .main_footer .heart_count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .section02 .main_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #edf2f7;
+}
+main .section02 .main_footer .tweet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid #e3ecf4;
+  border-radius: 90rem;
+  width: 130px;
+  height: 40px;
+  margin-left: 15px;
+}
+main .section02 .main_footer .div_down_arrow {
+  margin-left: auto;
+}
+.section_SNS {
+  background-color: #fff;
+  display: grid;
+  justify-content: start;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(4, auto);
+  padding-top: 30px;
+  border-bottom: 2px solid #e4edf4;
+  column-gap: 20px;
+}
+.section_SNS .Zenn_Official_img {
+  border-radius: 50%;
+  width: 60px;
+}
+.section_SNS .ZennOfficial {
+  grid-column: 1;
+  grid-row: 1 / 5;
+}
+.section_SNS .follow_GitHub_Twitter {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.section_SNS h4 {
+  margin-top: 0;
+  color: #000;
+  margin-bottom: 10px;
+}
+.section_SNS .Zenn_explanation {
+  color: #6e7b85;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.section_SNS .Twitter_follow {
+  border: 1px solid #6e7b85;
+  border-radius: 2em;
+  font-size: 14px;
+  text-align: center;
+  width: 80px;
+  height: 20px;
+  line-height: 20px;
+  padding: 5px 0;
+  font-size: 13px;
+  color: #6e7b85;
+}
+.Login {
+  background-color: #fff;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  max-width: 840px;
+}
+.Login h2 {
+  font-size: 27px;
+}
+.Login .discussion_img {
+  width: 300px;
+}
+.Login .p_discussion_img {
+  border-bottom: 1px solid #edf2f7;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.Login .p_Login_explanation {
+  font-family: -apple-system;
+  font-size: 15px;
+  color: #93a5b1;
+  margin-top: 0;
+}
+
+.Login .p_Login {
+  margin-right: 15px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: #3ea8ff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  width: 40px;
+  text-align: center;
+  margin-top: 0;
+}
+.section_read_next {
+  display: grid;
+  justify-content: space-around;
+  padding: 40px 15px 0 15px;
+  width: 90%;
+  margin-bottom: 80px;
+}
+.section_read_next h2 {
+  font-size: 27px;
+}
+.section_read_next .detail {
+  display: grid;
+  gap: 0 15px;
+  justify-content: start;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+.section_read_next .detail .emoji {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  background-color: #fff;
+  display: flex;
+  place-content: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 1em;
+}
+.section_read_next .detail .emoji_img {
+  width: 40%;
+}
+.section_read_next .detail .p_title {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 17px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  height: auto;
+}
+.section_read_next .detail .user {
+  display: flex;
+  grid-column: 2;
+  grid-row: 2;
+  gap: 5px;
+  justify-content: start;
+}
+.section_read_next .detail .user .icon_img {
+  width: 30px;
+  height: 30px;
+  border-radius: 1em;
+}
+.section_read_next .detail .user .icon_img_square {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+.section_read_next .detail .user .heart_img {
+  width: 100%;
+}
+.section_read_next .detail .user .div_heart_img {
+  width: 20px;
+  padding-top: 5px;
+}
+.section_read_next .detail .user .p_user_name {
+  font-size: 13px;
+  margin-top: 5px;
+}
+.section_read_next .detail .user .date,
+.section_read_next .detail .user .p_count {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #6e7b85;
+}
+.section_read_next .detail .user .icon_img_div .cube_icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 1em;
+  position: absolute;
+  left: 14px;
+  top: 14px;
+}
+.section_read_next .detail .user .icon_img_div {
+  position: relative;
+}
+footer {
+  background-color: #fff;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+footer .Zenn {
+  margin-left: 0;
+  padding-top: 50px;
+}
+footer .Zenn figcaption {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #93a5b1;
+}
+footer .footer_kinds {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: start;
+}
+footer .footer_kinds h4 {
+  margin-bottom: 0;
+}
+footer .footer_kinds ul {
+  padding-left: 0;
+  font-family: "lnter";
+  margin-top: 0;
+}
+footer .footer_kinds ul li {
+  list-style: none;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.classmethod .balloon {
+  position: relative;
+  display: inline-block;
+  margin: 0 0;
+  padding: 3px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 13px;
+  background: #eaf1f7;
+  border: solid 3px #eaf1f7;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+
+.classmethod .balloon:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  margin-left: -17px;
+  border: 14px solid transparent;
+  border-top: 14px solid #eaf1f7;
+  z-index: 1;
+}
+.classmethod .balloon p {
+  margin: 0;
+  padding: 0;
+}
+.classmethod {
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 1px;
+}
+.classmethod .classmethod_p {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.classmethod .classmethod_img {
+  width: 120px;
+}
+.classmethod .border {
+  width: 90%;
+  border-bottom: 1px solid #e4edf4;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  position: absolute;
+}
+footer .Zenn figcaption .br {
+  display: none;
+}
+.side_menu {
+  display: none;
+}
+.side_SNS {
+  display: none;
+}
+
+@media screen and (min-width: 580px) {
+  main,
+  .Login {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    border-radius: 1em;
+    padding-bottom: 10px;
+  }
+  .section_read_next {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  main .h2 {
+    font-size: 27px;
+  }
+  .section_SNS {
+    border-bottom: none;
+    padding-bottom: 15px;
+  }
+  .section_SNS .Zenn_Official_img {
+    width: 75px;
+  }
+  .Login {
+    margin-top: 20px;
+  }
+  .section_read_next .detail .emoji {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .article_title h1 {
+    font-size: 31px;
+  }
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .aside01 {
+    padding-left: 35px;
+    padding-right: 20px;
+  }
+  main,
+  .Login {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  .section_read_next {
+    margin-left: 45px;
+    margin-right: 45px;
+    grid-template-columns: minmax(0, 420px) minmax(0, 420px);
+    column-gap: 45px;
+    justify-content: center;
+  }
+  .section_read_next h2 {
+    grid-column: 1 / 3;
+  }
+  footer .footer_kinds {
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    column-gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .article_title p {
+    color: #edf2f7;
+  }
+  .aside01 {
+    display: none;
+  }
+  footer .Zenn {
+    width: 130px;
+    padding-top: 10px;
+  }
+  footer .Zenn figcaption .br {
+    display: block;
+  }
+  footer .footer_div {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    column-gap: 90px;
+    padding-left: 50px;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .main_container {
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+  }
+  .side_menu {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    gap: 30px;
+    margin-right: 40px;
+    width: 280px;
+  }
+  .side_menu .info {
+    border-radius: 1em;
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+  .side_menu .Zenn_Official {
+    border-radius: 1em;
+    background-color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 30px;
+  }
+  .side_menu .table_contents {
+    border-radius: 1em;
+    background-color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 240px;
+  }
+  .side_menu .info .tyosya .Zenn_Official_img {
+    border-radius: 50%;
+    width: 25px;
+    margin-right: 10px;
+  }
+  .side_menu .update .p_update_date .GitHub_img {
+    margin-right: 10px;
+  }
+  .side_menu .Zenn_Official .Zenn_Official_img {
+    border-radius: 50%;
+    width: 60px;
+  }
+  .side_menu .info .tyosya .p_tyosyamei span,
+  .side_menu .update .p_update_date span {
+    vertical-align: 40%;
+  }
+  .side_menu .tyosya,
+  .side_menu .koukai,
+  .side_menu .update,
+  .side_menu .ryou {
+    display: flex;
+    border-bottom: 1px solid #e4edf4;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #6e7b85;
+  }
+  .side_menu .ryou {
+    border-bottom: none;
+  }
+  .side_menu .Zenn_Official {
+    display: grid;
+    grid-template-columns: 80px auto;
+    grid-template-rows: repeat(3, auto);
+  }
+  .side_menu .follow_GitHub_Twitter {
+    display: flex;
+    margin: 0;
+    gap: 10px;
+  }
+  .side_menu .Zenn_Official .Zenn_Official_img {
+    grid-row: 1 / 3;
+  }
+  .side_menu .Zenn_Official .explanation {
+    grid-column: 1 / 3;
+  }
+  .side_menu .Zenn_Official .p_Zenn_Official {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+  }
+  .side_menu .follow_GitHub_Twitter .Twitter_follow {
+    border: 1px solid #6e7b85;
+    border-radius: 2em;
+    font-size: 14px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px 0;
+    font-size: 13px;
+    color: #6e7b85;
+  }
+  .side_menu .table_contents .p_table_contents {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .side_menu .table_contents ul li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7b85;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .side_SNS {
+    display: block;
+    grid-row: 1 / 3;
+    width: 50px;
+  }
+  .side_SNS .sticky_div {
+    position: sticky;
+    top: 100px;
+    display: flex;
+    flex-flow: column;
+  }
+  .side_SNS .heart_button {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    place-content: center;
+  }
+  .side_SNS .heart_button img {
+    width: 60%;
+  }
+  .side_SNS .count {
+    color: #6e7b85;
+    font-size: 12px;
+    text-align: center;
+  }
+  .side_SNS .Twitter_img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  .side_SNS .tweet {
+    color: #6e7b85;
+    font-size: 11px;
+    text-align: center;
+  }
+  .main_container {
+    grid-template-columns: 30px auto 300px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+  }
+  main {
+    grid-column: 2;
+  }
+  .side_menu {
+    grid-column: 3;
+    grid-row: 1 / 3;
+  }
+}
